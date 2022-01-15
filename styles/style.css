@@ -136,7 +136,7 @@ body{
 
 .big-menu{
     height: 200px;
-    background-color: rgb(38, 21, 54);
+    background-color: rgb(29, 14, 43);
     display: flex;
     justify-content: center;
 }
@@ -166,4 +166,19 @@ body{
     margin-bottom: 0px;
     margin-left: 18px;
     margin-top: 10px;
+}
+
+/* Footer Styles */
+
+.footer h2{
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(139, 139, 139);
+}
+.footer p{
+    text-align: center;
+    color: rgb(139, 139, 139);
+    margin-top: 0px;
 }
