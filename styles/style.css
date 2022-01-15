@@ -299,7 +299,7 @@ body{
         margin-top: 10px;
     }
 }
-@media (max-width:502px){
+@media (max-width:414px){
     .title-a1{
         font-size: 37px;
         text-align: center;
@@ -313,8 +313,8 @@ body{
         align-items: center;
     }
     .right-a1 img{
-        width: 400px;
-        height: 340px;
+        width: 360px;
+        height: 330px;
     }
     .right-a1{
         display: flex;
@@ -328,7 +328,23 @@ body{
     .title-a1 {
         font-size: 30px;
         font-weight: 700;
-        margin-bottom: 0px;
+        margin-bottom: 0px;}
+.info-a1{
+    width: 80%;
 }
-.info-a1{width: 80%;}
+}
+@media (max-width:380px){
+    .left-a1{
+        width: 95%;
+    }
+    .nav{
+        width: 70%;
+    }
+    .title-a1{
+        line-height: 130%;
+    }
+    .info-a1{
+        font-size: 16px;
+        padding-left: 30px;
+    }
 }
