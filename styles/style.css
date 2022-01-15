@@ -290,7 +290,7 @@ body{
         display: flex;
     }
 }
-@media (max-width:698px){
+@media (max-width:630px){
     .nav-right{
         display: none;
     }
@@ -299,7 +299,7 @@ body{
         margin-top: 10px;
     }
 }
-@media (max-width:698px){
+@media (max-width:502px){
     .title-a1{
         font-size: 37px;
         text-align: center;
@@ -323,4 +323,12 @@ body{
     .nav{
         width: 80%;
     }
+}
+@media (max-width:430px){
+    .title-a1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 0px;
+}
+.info-a1{width: 80%;}
 }
