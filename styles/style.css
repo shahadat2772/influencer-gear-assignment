@@ -6,13 +6,11 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 0px;
-   
 }
 
 /* Navigation Styles */
 
 .navigation{
-    /* background-color: lightgrey; */
     height: 60px;
     display: flex;
     justify-content: center;
@@ -324,8 +322,5 @@ body{
     }
     .nav{
         width: 80%;
-    }
-    .footer h2{
-        
     }
 }
