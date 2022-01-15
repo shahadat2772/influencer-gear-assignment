@@ -4,7 +4,9 @@ body{
     background: #ffffff;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 0px;
    
 }
 
@@ -111,7 +113,8 @@ body{
 }
 .see-more-button-sec{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .see-more-button{
     display: flex;
@@ -120,6 +123,47 @@ body{
     font-size: 16px;
     font-weight: bold;
     color: #E02C6D;
-    width: 99%;
+    width: 76%;
     margin-top: 40px;
+}
+.section-title{
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+/* Bottom Menu Styles */
+
+.big-menu{
+    height: 200px;
+    background-color: rgb(38, 21, 54);
+    display: flex;
+    justify-content: center;
+}
+.menu-left h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 130px;
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    
+    justify-items: center;
+    align-items: center;
+}
+.menu-items{
+    color: whitesmoke;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.menu-heading{
+    color: rgb(185, 0, 185);
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    margin-top: 10px;
 }
